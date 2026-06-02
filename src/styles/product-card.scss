@@ -10,7 +10,7 @@
   width: $card-width;
   padding: $card-padding;
 
-  transition: 0.3s ease;
+  transition: transform 300ms ease;
 
   [class*='product-card__'] {
     width: 100%;
@@ -44,6 +44,10 @@
   &__button {
     margin-top: 16px;
     height: 40px;
+  }
+
+  &__title {
+    transition: color 300ms ease;
   }
 
   &:hover {
