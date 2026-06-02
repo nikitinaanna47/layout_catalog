@@ -1,3 +1,18 @@
+@use './button.scss';
+@use './header.scss';
+@use './main.scss';
+@use './name-section.scss';
+@use './price-section.scss';
+@use './product-card.scss';
+@use './rate-section.scss';
+@use './stars.scss';
+@use './variables.scss' as *;
+
 body {
   margin: 0;
+  box-sizing: border-box;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: $main-color;
 }
