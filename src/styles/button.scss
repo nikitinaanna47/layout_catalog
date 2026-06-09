@@ -8,17 +8,17 @@
   border-radius: 5px;
   box-sizing: border-box;
 
+  transition: background-color 300ms ease;
+
   font-weight: 700;
   font-size: 14px;
   color: white;
-
-  &:link {
-    text-decoration: none;
-  }
+  text-decoration: none;
 
   &:hover {
     background-color: white;
-    border: solid $blue 1px;
+    border-color: $blue;
+    outline: 1px solid $blue;
     color: $blue;
   }
 }
