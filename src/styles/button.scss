@@ -1,6 +1,6 @@
 @use './variables.scss' as *;
 
-.__button {
+.product-card__button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,14 +11,16 @@
   border: 1px solid $blue;
   background-color: #00acdc;
   margin-top: 16px;
-  text-decoration: uppercase;
+  text-decoration: none;
   transition: background-color 300ms;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   color: #fff;
+  text-transform: uppercase;
 
   &:hover {
+    background-color: #fff;
     color: $blue;
   }
 }
