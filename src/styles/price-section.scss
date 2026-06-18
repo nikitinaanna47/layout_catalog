@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   margin-top: 24px;
 }
 
@@ -12,7 +13,6 @@
   font-size: 12px;
   line-height: 18px;
   color: $grey;
-  margin-left: 16px;
 }
 
 .product-card__amount {
@@ -20,5 +20,4 @@
   font-size: 16px;
   line-height: 18px;
   color: $main-color;
-  margin-left: 16px;
 }

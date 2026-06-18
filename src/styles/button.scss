@@ -6,10 +6,10 @@
   align-items: center;
   box-sizing: border-box;
   height: 40px;
-  width: 166px;
+  width: 100%;
   border-radius: 5px;
   border: 1px solid $blue;
-  background-color: #00acdc;
+  background-color: $blue;
   margin-top: 16px;
   text-decoration: none;
   transition: background-color 300ms;
