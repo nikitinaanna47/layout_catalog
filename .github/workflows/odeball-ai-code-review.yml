@@ -1,15 +1,15 @@
-name: Codeball AI Code Review
+# name: Codeball AI Code Review
 
-on:
-  pull_request:
-    branches: [ "master" ]
+# on:
+#  pull_request:
+ #   branches: [ "master" ]
 
-jobs:
-  review:
+# jobs:
+# review:
 
-    runs-on: ubuntu-latest
+#   runs-on: ubuntu-latest
 
-    steps:
-    - name: Codeball AI Code Review
-      uses: sturdy-dev/codeball-action@v2.6.0
+#   steps:
+#  - name: Codeball AI Code Review
+#    uses: sturdy-dev/codeball-action@v2.6.0
 
