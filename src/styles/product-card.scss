@@ -84,4 +84,29 @@
     line-height: 18px;
     color: $main-color;
   }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid $blue;
+    background-color: $blue;
+    margin-top: 16px;
+    text-decoration: none;
+    transition: background-color 300ms;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: #fff;
+      color: $blue;
+    }
+  }
 }
